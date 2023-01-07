@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    position: inherit;
+}
+
+.footer_container {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #3c3c3b;
+    z-index: 1000;
+}
+
+.footer_title {
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin: 1rem;
+    padding: 1rem;
+}
+.links a{
+    color: #ccc;
+    font-size: 2rem;
+}

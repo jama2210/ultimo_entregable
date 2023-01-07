@@ -1,0 +1,49 @@
+.purchase_item {
+    border: 1px solid #515151;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+ .purchase_header {
+    border-bottom: 1px solid #515151;
+    padding: 10px;
+
+}
+
+.purchase_item .purchase_list {
+    padding: 30px 10px 10px;
+    box-sizing: border-box;
+    color: #515151;
+}
+
+.purchase_item .purchase_list .product_item {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 1rem;
+    width: 40%;
+}
+
+.quantity {
+    padding: 0 10px;
+    width: 60px;
+    width: 23%;
+}
+
+.box {
+    border: 1px solid #515151;
+    margin: 0 auto;
+    max-width: 65px;
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+    width: 17%;
+}

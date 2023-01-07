@@ -1,0 +1,38 @@
+.content {
+    display: block;
+    flex: 1 1;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 50px 0;
+}
+
+.purchases_main {
+    margin: 0 auto;
+    padding: 13px 20px;
+}
+
+.purchases_title {
+    position: relative;
+    font-size: 2rem;
+    margin: 1em;
+}
+
+.history {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: .2em;
+    text-align: start;
+    position: relative;
+    left: 30px;
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+
+.separator {
+    background: #f85555;
+    border-radius: 50%;
+    height: 6px;
+    margin: 0 14px;
+    width: 6px;
+}
